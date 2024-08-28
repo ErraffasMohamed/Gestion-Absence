@@ -40,4 +40,4 @@ yarn-error.log
 
 # Ignore specific Bootstrap directory if it exists
 /public/bootstrap
-/public/addmin/
+# /public/addmin/
