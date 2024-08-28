@@ -1,0 +1,43 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# Additional Laravel specific ignores
+/.idea
+/.vscode
+/.env.testing
+/.phpunit.cache
+/storage/logs/*.log
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/views
+/storage/app/public
+/.DS_Store
+
+# Ignore Bootstrap and JS plugin files
+/public/css/*.css
+/public/js/*.js
+/public/vendor
+/public/assets
+/public/build
+
+# Ignore minified and compiled assets
+/public/js/*.min.js
+/public/css/*.min.css
+
+# Ignore specific JS frameworks or libraries (like jQuery, etc.)
+/public/js/jquery.js
+/public/js/bootstrap.js
+
+# Ignore specific Bootstrap directory if it exists
+/public/bootstrap
+/public/addmin/
